@@ -30,7 +30,9 @@ function email_search_plugin_page() {
         //display results
         echo '<ul>';
         foreach ($results as $result) {
-            echo $result['meta_value'] . ' found in post <a href="https://provo.edu/wp-admin/post.php?post='.$result['post_id'] .'&action=edit&classic-editor">' . $result['post_id'] . '<a/>';
+            echo '<li>';
+            echo $result['meta_value'] . ' found in post <a href="https://provo.edu/wp-admin/post.php?post='.$result['post_id'] .'&action=edit&classic-editor">' . $result['post_id'] . '</a>';
+            echo '</li>';
         }
         echo '</ul>';
 
