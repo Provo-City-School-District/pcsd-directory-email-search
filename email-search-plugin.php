@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: PCSD Directory Email Search
- * Description: A plugin to search for emails in our postmeta where our website directory information is stored..
+ * Description: A plugin to search for emails in our postmeta where our website directory information is stored.
  * Version: 1.0
  * Author: Josh Espinoza
  */
